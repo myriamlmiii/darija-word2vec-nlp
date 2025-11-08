@@ -74,8 +74,8 @@ class DarijaTokenizer:
 
 | Configuration | CPU | RAM | Storage | 1M Sentences | 3M Sentences | Status |
 |--------------|-----|-----|---------|--------------|--------------|---------|
-| System A | 4-core | 8GB | HDD | Failed (OOM) | - | ❌ Bottleneck |
-| System B | 8-core | 32GB | SSD RAID | 25 min | 90 min | ✅ Optimal |
+| System A | 4-core | 8GB | HDD | Failed (OOM) | - |   Bottleneck |
+| System B | 8-core | 32GB | SSD RAID | 25 min | 90 min |   Optimal |
 
 **Key Findings:**
 1. **Memory Hierarchy Critical:** SSD vs HDD resulted in 10x performance difference
